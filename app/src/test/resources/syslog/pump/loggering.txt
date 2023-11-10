@@ -1,0 +1,158 @@
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|acom |4|00|Application browser from 127.0.0.1 [13718] has been disconnected.
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|so   |4|00|safeRestart: calling reconfigure callback api - [4de18]
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|ec   |4|00|Stopped access token service
+<134>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|app1 |*|00|Event: Multiple Key Combo 7
+<134>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|app1 |*|00|Manual Restart
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|app1 |4|00|Sending restart/reboot event to exchange
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|app1 |4|00|AppC::appReconfigure sync and close keyFd.
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|ldap |4|00|[start:156] xferStart failed cState=-1
+<134>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|app1 |*|00|AppC::appReconfigure cDynamicData shutdown complete
+<131>Nov 10 21:17:14 10.0.0.227 64167f55d8ed|1110211714|app1 |4|00|AppC::appReconfigure waiting on watchdog timer expiry for restart.
+<134>Nov 10 21:17:16 10.0.0.227 64167f55d8ed|1110211716|so   |*|00|SoNcasC::procMsg: all client services were completed and shutdown.
+<134>Nov 10 21:17:16 10.0.0.227 64167f55d8ed|1110211716|so   |*|00|Set shutdown watchdog
+<131>Nov 10 21:17:19 10.0.0.227 64167f55d8ed|1110211719|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<134>Nov 10 21:17:22 10.0.0.227 64167f55d8ed|1110211722|wdog |*|00|Watchdog Expired: tSupObjs, 2056
+<134>Nov 10 21:17:22 10.0.0.227 64167f55d8ed|1110211722|log  |*|00|---------- Final log entry ----------
+<134>Nov 10 21:17:57 10.0.0.227 64167f55d8ed|1110211757|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-phone.cfg' is not present
+<131>Nov 10 21:17:57 10.0.0.227 64167f55d8ed|1110211757|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+<134>Nov 10 21:17:59 10.0.0.227 64167f55d8ed|1110211759|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-web.cfg' is not present
+<131>Nov 10 21:17:59 10.0.0.227 64167f55d8ed|1110211759|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+<134>Nov 10 21:18:00 10.0.0.227 64167f55d8ed|1110211800|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-cloud.cfg' is not present
+<131>Nov 10 21:18:00 10.0.0.227 64167f55d8ed|1110211800|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+<131>Nov 10 21:18:00 10.0.0.227 64167f55d8ed|1110211800|brow |4|00|Timezone value = UTC0UTC,J71/2:0:0,J309/2:0:0, Browser state - 1, Visible - 0
+
+<131>Nov 10 21:18:00 10.0.0.227 64167f55d8ed|1110211800|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Enter
+
+<131>Nov 10 21:18:00 10.0.0.227 64167f55d8ed|1110211800|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Default
+
+<131>Nov 10 21:18:00 10.0.0.227 64167f55d8ed|1110211800|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Exit
+
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.sec.TLS.cipherSuiteDefault1.set" found, ignoring.
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.sec.TLS.cipherSuiteDefault1" found, ignoring.
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.recoveryType.set" found, ignoring.
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.recoveryType" found, ignoring.
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "up.rebootSoundEnabled" found, ignoring.
+<134>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |*|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Value "" for configuration parameter reg.1.outboundProxy.port is invalid, ignoring
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|ldap |4|00|[initCfg:531]  ldapCfg::initCfg  for cid dir.corp
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|ldap |4|00|[isDirFeatureEnabled:513]  for 0 enabled 0
+<134>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |*|00|Prov|Setting device parameters from configuration files.
+<131>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |4|00|RT|cfgFlashUpdateFromConfig: Failed to update SerialConfig
+<134>Nov 10 21:18:30 10.0.0.227 64167f55d8ed|1110211830|cfg  |*|00|Prov|Finished updating configuration
+<134>Nov 10 21:18:53 192.168.1.50 64167f70804a|1110211853|cfg  |*|00|Prov|Finished updating configuration
+<131>Nov 10 21:18:31 10.0.0.227 64167f55d8ed|1110211831|brow |4|00|Timezone value = UTC0UTC,J71/2:0:0,J309/2:0:0, Browser state - 1, Visible - 0
+
+<134>Nov 10 21:18:31 10.0.0.227 64167f55d8ed|1110211831|so   |*|00|SCEP feature is disabled.
+<134>Nov 10 21:18:32 10.0.0.227 64167f55d8ed|1110211832|so   |*|00|SCEP feature is disabled.
+<134>Nov 10 21:18:32 10.0.0.227 64167f55d8ed|1110211832|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-directory.xml' is not present
+<134>Nov 10 21:18:33 10.0.0.227 64167f55d8ed|1110211833|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/000000000000-directory.xml' is not present
+<131>Nov 10 21:18:46 10.0.0.227 64167f55d8ed|1110211846|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = 14
+<134>Nov 10 21:18:47 10.0.0.227 64167f55d8ed|1110211847|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-boot.log' is not present
+<131>Nov 10 21:18:47 10.0.0.227 64167f55d8ed|1110211847|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = -1
+<131>Nov 10 21:18:47 10.0.0.227 64167f55d8ed|1110211847|log  |4|00|Failed to upload boot log on start up.
+<131>Nov 10 21:19:02 10.0.0.227 64167f55d8ed|1110211902|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<131>Nov 10 21:19:18 10.0.0.227 64167f55d8ed|1110211918|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = 14
+<134>Nov 10 21:19:19 10.0.0.227 64167f55d8ed|1110211919|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-app.log' is not present
+<131>Nov 10 21:19:19 10.0.0.227 64167f55d8ed|1110211919|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<134>Nov 10 21:19:20 10.0.0.227 64167f55d8ed|1110211920|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-app.log' is not present
+<131>Nov 10 21:19:20 10.0.0.227 64167f55d8ed|1110211920|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = -1
+<134>Nov 10 21:18:54 192.168.1.50 64167f70804a|1110211854|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f70804a-directory.xml' is not present
+<134>Nov 10 21:18:55 192.168.1.50 64167f70804a|1110211855|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/000000000000-directory.xml' is not present
+<131>Nov 10 21:19:08 192.168.1.50 64167f70804a|1110211908|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<131>Nov 10 21:19:23 192.168.1.50 64167f70804a|1110211923|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = 14
+<134>Nov 10 21:19:24 192.168.1.50 64167f70804a|1110211924|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f70804a-app.log' is not present
+<131>Nov 10 21:19:24 192.168.1.50 64167f70804a|1110211924|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<134>Nov 10 21:19:25 192.168.1.50 64167f70804a|1110211925|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f70804a-app.log' is not present
+<131>Nov 10 21:19:25 192.168.1.50 64167f70804a|1110211925|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = -1
+<131>Nov 10 21:20:25 10.0.0.227 64167f55d8ed|1110212025|so   |4|00|safeReboot: calling reboot callback api - [4de6c]
+<134>Nov 10 21:20:25 10.0.0.227 64167f55d8ed|1110212025|app1 |*|00|Event: Multiple Key Combo 1
+<134>Nov 10 21:20:25 10.0.0.227 64167f55d8ed|1110212025|app1 |*|00|Manual Reboot
+<131>Nov 10 21:20:25 10.0.0.227 64167f55d8ed|1110212025|app1 |4|00|Sending restart/reboot event to exchange
+<131>Nov 10 21:20:25 10.0.0.227 64167f55d8ed|1110212025|app1 |4|00|AppExchangeUiC::exchangeSetRebootFlag Setting the reboot flag to true for browser.
+
+<131>Nov 10 21:20:25 10.0.0.227 64167f55d8ed|1110212025|brow |4|00|CWebLayoutMgr::Dismisss
+
+
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|dbs  |5|00|CDbsLayoutMgr::Quit() - Enter
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|acom |5|00|AppComServer encountered a connection error.
+<131>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|acom |4|00|Application dbs from 127.0.0.1 [50623] has been disconnected.
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|dbs  |5|00|CDbsLayoutMgr::Quit() - Exit
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|osd  |5|00|COsdLayoutMgr::Quit - Entry
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|acom |5|00|AppComServer encountered a connection error.
+<131>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|acom |4|00|Application osd from 127.0.0.1 [50367] has been disconnected.
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|osd  |5|00|COsdLayoutMgr::Quit - Exit
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|brow |5|00|CWebLayoutMgr::Quit - Entry
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|brow |5|00|CWebLayoutMgr::stopTimersAndSignals()- Enter
+<130>Nov 10 21:20:29 10.0.0.227 64167f55d8ed|1110212029|brow |5|00|CWebLayoutMgr::stopTimersAndSignals()- Exit
+<130>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|brow |5|00|CWebLayoutMgr::Quit - Exit
+<130>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|acom |5|00|AppComServer encountered a connection error.
+<131>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|acom |4|00|Application browser from 127.0.0.1 [51135] has been disconnected.
+<130>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|ec   |5|00|CEcLayoutMgr::Quit() - Entry
+<130>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|acom |5|00|AppComServer encountered a connection error.
+<131>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|acom |4|00|Application ec from 127.0.0.1 [50111] has been disconnected.
+<130>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|ec   |5|00|QCoreApplication::exit() - Exit
+<130>Nov 10 21:20:31 10.0.0.227 64167f55d8ed|1110212031|ec   |5|00|CEcLayoutMgr::Quit() - Exit
+<131>Nov 10 21:20:39 10.0.0.227 64167f55d8ed|1110212039|acom |4|00|Application spipgui from 127.0.0.1 [50879] has been disconnected.
+<131>Nov 10 21:20:39 10.0.0.227 64167f55d8ed|1110212039|ldap |4|00|[start:156] xferStart failed cState=-1
+<131>Nov 10 21:20:39 10.0.0.227 64167f55d8ed|1110212039|clist|4|00|dbJson::requestSubmit:<DESTROY> - failed
+<130>Nov 10 21:20:39 10.0.0.227 64167f55d8ed|1110212039|acom |5|00|AppComServer is exiting, cleaning up all connections.
+<134>Nov 10 21:20:41 10.0.0.227 64167f55d8ed|1110212041|so   |*|00|SoNcasC::procMsg: all client services were completed and shutdown.
+<134>Nov 10 21:20:41 10.0.0.227 64167f55d8ed|1110212041|so   |*|00|Set shutdown watchdog
+<134>Nov 10 21:20:47 10.0.0.227 64167f55d8ed|1110212047|wdog |*|00|Watchdog Expired: tSupObjs, 2056
+<134>Nov 10 21:20:47 10.0.0.227 64167f55d8ed|1110212047|log  |*|00|---------- Final log entry ----------
+<134>Nov 10 21:22:12 10.0.0.227 64167f55d8ed|1110212212|pgui |*|00|Qt Mouse driver created.
+<134>Nov 10 21:22:14 10.0.0.227 64167f55d8ed|1110212214|dbs  |*|00|Initial log entry. Current logging level 4
+<134>Nov 10 21:22:14 10.0.0.227 64167f55d8ed|1110212214|osd  |*|00|Initial log entry. Current logging level 4
+<134>Nov 10 21:22:15 10.0.0.227 64167f55d8ed|1110212215|brow |*|00|Initial log entry. Current logging level 4
+<134>Nov 10 21:22:16 10.0.0.227 64167f55d8ed|1110212216|clist|*|00|Initial log entry. Current logging level 4
+<134>Nov 10 21:22:19 10.0.0.227 64167f55d8ed|1110212219|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-directory.xml' is not present
+<134>Nov 10 21:22:20 10.0.0.227 64167f55d8ed|1110212220|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/000000000000-directory.xml' is not present
+<134>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|app1 |*|00|[appInitialized] App initialization is completeled.
+<134>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|cfg  |*|00|Prov|Starting to provision
+<131>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|app1 |4|00|Corporate directory is not Enabled.
+<130>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|cfg  |5|00|Prm|Parameter reg.x.outboundProxy.port requested type 0 but is of type 2
+<131>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|sip  |4|00|doDnsDeInitDnsStkCache: DNS Cache is not initialized
+<130>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|cfg  |5|00|Prm|Parameter voIpProt.SIP.tcpFastFailover.timeout requested type 2 but is of type 0
+<134>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|sip  |*|00|Sip registering user:007-FluentStream@usw2-phone-0.fluentcloud.com display name:007 authorizing user name:'007-FluentStream' index value:0
+<131>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|utilm|4|00|uBLFUnCompressed: File /ffs0/Config/Local/WebTicket/0/sip.usr doesn't exist or is empty
+<134>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|cfg  |*|00|Prov|Starting to update 
+<134>Nov 10 21:22:21 10.0.0.227 64167f55d8ed|1110212221|sip  |*|00|Fast boot measurement point: ready to make Call, uptime: 66.403 sec.
+<134>Nov 10 21:22:26 10.0.0.227 64167f55d8ed|1110212226|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-phone.cfg' is not present
+<131>Nov 10 21:22:26 10.0.0.227 64167f55d8ed|1110212226|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+<134>Nov 10 21:22:27 10.0.0.227 64167f55d8ed|1110212227|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-web.cfg' is not present
+<131>Nov 10 21:22:27 10.0.0.227 64167f55d8ed|1110212227|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+<134>Nov 10 21:22:28 10.0.0.227 64167f55d8ed|1110212228|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-cloud.cfg' is not present
+<131>Nov 10 21:22:28 10.0.0.227 64167f55d8ed|1110212228|cfg  |4|00|Prov|File transfer failed due to curl error code:22 and respCode:404
+<134>Nov 10 21:22:36 10.0.0.227 64167f55d8ed|1110212236|ec   |*|00|Initial log entry. Current logging level 4
+<131>Nov 10 21:22:55 10.0.0.227 64167f55d8ed|1110212255|app1 |4|00|AppBrowserUiC::configure() Enter
+<131>Nov 10 21:22:55 10.0.0.227 64167f55d8ed|1110212255|app1 |4|00|AppBrowserUiC::configure() - Home url - [], idle url - []
+<131>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.sec.TLS.cipherSuiteDefault1.set" found, ignoring.
+<131>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.sec.TLS.cipherSuiteDefault1" found, ignoring.
+<131>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.recoveryType.set" found, ignoring.
+<131>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "device.recoveryType" found, ignoring.
+<131>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |4|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Unknown parameter "up.rebootSoundEnabled" found, ignoring.
+<134>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |*|00|Prm|https://poly.uaprov.finfra.net/poly/stable/fake-state-id/64167f55d8ed.xml: Value "" for configuration parameter reg.1.outboundProxy.port is invalid, ignoring
+<134>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |*|00|Prov|Setting device parameters from configuration files.
+<131>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |4|00|RT|cfgFlashUpdateFromConfig: Failed to update SerialConfig
+<134>Nov 10 21:22:58 10.0.0.227 64167f55d8ed|1110212258|cfg  |*|00|Prov|Finished updating configuration
+<131>Nov 10 21:22:59 10.0.0.227 64167f55d8ed|1110212259|brow |4|00|Timezone value = UTC0UTC,J71/2:0:0,J309/2:0:0, Browser state - 1, Visible - 0
+
+<131>Nov 10 21:23:00 10.0.0.227 64167f55d8ed|1110212300|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Enter
+
+<131>Nov 10 21:23:00 10.0.0.227 64167f55d8ed|1110212300|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Default
+
+<131>Nov 10 21:23:00 10.0.0.227 64167f55d8ed|1110212300|brow |4|00|CWebLayoutMgr::handleProxyConfiguration Exit
+
+<134>Nov 10 21:22:59 10.0.0.227 64167f55d8ed|1110212259|so   |*|00|SCEP feature is disabled.
+<134>Nov 10 21:23:00 10.0.0.227 64167f55d8ed|1110212300|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-directory.xml' is not present
+<130>Nov 10 21:23:01 10.0.0.227 64167f55d8ed|1110212301|app1 |5|00|AppExchangeUiC::configSecurity CA path:[/ffs0/ca1.crt]
+<134>Nov 10 21:23:01 10.0.0.227 64167f55d8ed|1110212301|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/000000000000-directory.xml' is not present
+<130>Nov 10 21:23:11 10.0.0.227 64167f55d8ed|1110212311|app1 |5|00|AppPhoneLockC::Init - bPhoneLockState [1]
+<131>Nov 10 21:23:14 10.0.0.227 64167f55d8ed|1110212314|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = 14
+<134>Nov 10 21:23:15 10.0.0.227 64167f55d8ed|1110212315|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-boot.log' is not present
+<131>Nov 10 21:23:15 10.0.0.227 64167f55d8ed|1110212315|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = -1
+<131>Nov 10 21:23:15 10.0.0.227 64167f55d8ed|1110212315|log  |4|00|Failed to upload boot log on start up.
+<131>Nov 10 21:23:30 10.0.0.227 64167f55d8ed|1110212330|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<131>Nov 10 21:23:45 10.0.0.227 64167f55d8ed|1110212345|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = 14
+<134>Nov 10 21:23:47 10.0.0.227 64167f55d8ed|1110212347|copy |*|00|Server 'poly.uaprov.finfra.net' said 'poly/stable/fake-state-id/64167f55d8ed-app.log' is not present
+<131>Nov 10 21:23:47 10.0.0.227 64167f55d8ed|1110212347|copy |4|00|Could not set the custom header Content-Range for HTTP/s request. Head request failed to get content-length of server file.
+<131>Nov 10 21:24:53 10.0.0.227 64167f55d8ed|1110212453|log  |4|00|UtilLogServerC::uploadFifoLog: upload error. protocol 0 result = -1
